@@ -1,0 +1,171 @@
+body{
+
+background-image:url(foodbg2.jpg) ;
+  background-size: cover;
+  background-position: center ;
+  background-attachment: fixed;
+  padding: 1% 23%;
+
+}
+.work{
+  width:20%;
+  float:right;
+  margin-right:  70px;
+  margin-bottom: 80px;
+  padding-top: 30px;
+
+}
+@media (max-width:1090px) {
+.work{
+display: none;
+}
+
+}
+.text-center1{
+  font-weight: bold;
+  font-family: "Montserrat",sans-serif;
+  color: #1A4D2E;
+  font-size: 2rem;
+  padding: 0 40%;
+}
+@media (max-width:1080px) {
+.text-center1{
+  font-size: 1rem;
+  padding: 4% 18%;
+  font-weight: bold;
+}}
+.foodhead{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #114232;
+  padding: 8% 28%;
+  text-decoration: none;
+}
+@media
+(max-width:1080px) {
+.foodhead{
+  font-size: 1.5rem;
+  padding: 85% 18%;
+  font-weight: 900;
+  color: #114232;
+}
+}
+.text-center{
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+i.fa-solid{
+    position: absolute;
+    left: 66%;
+    top: 57px;
+    cursor: pointer;
+    color: #fff;
+display: none;
+}
+.img{
+    transition: 0.4s;
+}
+.img:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 5px 1px white;
+}
+
+.yt:hover{
+    text-shadow:  0 0 4px green;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+  padding: 7% 15%;
+  font-family: "Montserrat",sans-serif;
+  color: brown;
+}
+
+.wave{
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(60deg, #32012F, #524C42);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+    display: none;
+}
+.wave:nth-child(2){
+    animation-delay: 0.15s;
+}
+.wave:nth-child(3){
+    animation-delay: 0.2s;
+}
+.wave:nth-child(4){
+    animation-delay: 0.3s;
+}
+.wave:nth-child(5){
+    animation-delay: 0.4s;
+}
+.wave:nth-child(6){
+    animation-delay: 0.5s;
+}
+.wave:nth-child(7){
+    animation-delay: 0.6s;
+}
+.wave:nth-child(8){
+    animation-delay: 0.7s;
+}
+.wave:nth-child(9){
+    animation-delay: 0.8s;
+}
+.wave:nth-child(10){
+    animation-delay: 0.9s;
+}
+#btn{
+  background-color: purple;
+  color: white;
+  font-size: 1rem;
+  width: 10rem;
+  height: 4rem;
+  margin-left: 2%;
+  box-shadow: black;
+  border-radius: 25px;
+  font-family: "Montserrat",sans-serif;
+
+}
+#btn:hover{
+  background-color: green;
+}
+@media (max-width:1024px) {
+#btn{
+  position: static;
+  justify-content: center;
+  width:6rem;
+  height:3rem;
+  margin-top: 0;
+  display: inline-block;
+
+}
+}
+#copyright{
+  font-family: "Montserrat",sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+@keyframes wave {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
